@@ -91,14 +91,14 @@ public class ReverseArray {
 		List<Integer> combination = new ArrayList<Integer>(10);
 		
 		Collections.shuffle(list);
-	    combination.addAll(list.subList(0, 10));
+	    	combination.addAll(list.subList(0, 10));
 	    
-	    char[] returnArray = new char[10];
-	    for (int i = 0; i < 10; i++) {
+	    	char[] returnArray = new char[10];
+	    	for (int i = 0; i < 10; i++) {
 
-	        returnArray[i] = (char) combination.get(i).intValue();
-	    }
+	        	returnArray[i] = (char) combination.get(i).intValue();
+	    	}
 
-	   return returnArray;
+	   	return returnArray;
 	}
 }
