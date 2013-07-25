@@ -23,7 +23,7 @@ public class IncrementByTwo {
 	 * I am synchronizing the incrementing of each int
 	 */
 	public static synchronized int increment(int i) {
-    	return ++i;
+    		return ++i;
 	}
 
 	/*
